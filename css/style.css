@@ -1,0 +1,37 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+#gallery {
+   max-width: 900px;
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+.demo__title{
+text-align: center;
+}
+.zoomed-image {
+    display: inline-block;
+    width: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 1%;
+    transition: all linear 0.2s;
+}
+.sidebar {
+    width: 22%;
+    display: inline-block;
+}
+.sidebar img {
+    cursor: pointer;
+}
+.sidebar img:nth-child(2){
+    padding: 5% 0;
+}
+.footer{
+  max-width: 900px;
+    position: relative;
+    margin: auto;
+}
